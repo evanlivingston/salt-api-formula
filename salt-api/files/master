@@ -1,0 +1,10 @@
+publish_port: 4505
+
+ret_port: 4506
+
+open_mode: False
+
+external_auth:
+  pam:
+    saltdev:
+      - .*

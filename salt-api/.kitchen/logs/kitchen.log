@@ -1,0 +1,31 @@
+I, [2015-11-12T12:14:48.167146 #86277]  INFO -- Kitchen: -----> Starting Kitchen (v1.4.2)
+E, [2015-11-12T12:14:48.172472 #86277] ERROR -- Kitchen: ------Exception-------
+E, [2015-11-12T12:14:48.172556 #86277] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2015-11-12T12:14:48.172588 #86277] ERROR -- Kitchen: Message: Kitchen YAML file /Users/evanlivingston/salt-api-formula/salt-api/.kitchen.yml does not exist.
+E, [2015-11-12T12:14:48.172620 #86277] ERROR -- Kitchen: ------Backtrace-------
+E, [2015-11-12T12:14:48.172651 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2015-11-12T12:14:48.172682 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:145:in `data'
+E, [2015-11-12T12:14:48.172713 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:124:in `suites'
+E, [2015-11-12T12:14:48.172744 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:175:in `filter_instances'
+E, [2015-11-12T12:14:48.172781 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:134:in `build_instances'
+E, [2015-11-12T12:14:48.172812 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:110:in `instances'
+E, [2015-11-12T12:14:48.172843 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/command.rb:115:in `filtered_instances'
+E, [2015-11-12T12:14:48.172873 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/command.rb:145:in `parse_subcommand'
+E, [2015-11-12T12:14:48.172904 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/command/action.rb:38:in `block in call'
+E, [2015-11-12T12:14:48.172935 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2015-11-12T12:14:48.172966 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/command/action.rb:37:in `call'
+E, [2015-11-12T12:14:48.173025 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/cli.rb:56:in `perform'
+E, [2015-11-12T12:14:48.173057 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/cli.rb:171:in `block (2 levels) in <class:CLI>'
+E, [2015-11-12T12:14:48.173094 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2015-11-12T12:14:48.173125 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2015-11-12T12:14:48.173155 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/cli.rb:308:in `invoke_task'
+E, [2015-11-12T12:14:48.173186 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2015-11-12T12:14:48.173217 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2015-11-12T12:14:48.173247 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2015-11-12T12:14:48.173306 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/lib/kitchen/errors.rb:154:in `with_friendly_errors'
+E, [2015-11-12T12:14:48.173337 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/gems/test-kitchen-1.4.2/bin/kitchen:13:in `<top (required)>'
+E, [2015-11-12T12:14:48.173368 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/bin/kitchen:23:in `load'
+E, [2015-11-12T12:14:48.173405 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/bin/kitchen:23:in `<main>'
+E, [2015-11-12T12:14:48.173437 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/bin/ruby_executable_hooks:15:in `eval'
+E, [2015-11-12T12:14:48.173468 #86277] ERROR -- Kitchen: /Users/evanlivingston/.rvm/gems/ruby-1.9.3-p551@kitchen-salt-tutorial/bin/ruby_executable_hooks:15:in `<main>'
+E, [2015-11-12T12:14:48.173499 #86277] ERROR -- Kitchen: ----------------------
