@@ -19,7 +19,7 @@ Available states
 ``salt-api``
 ---------
 
-install, configure and run ``salt-api`` service as well as [Pepper](https://github.com/saltstack/pepper)
+    install, configure and run ``salt-api`` service as well as `Pepper <https://github.com/saltstack/pepper>`_.
 
 To Do:
  - Make installaion of Pepper module a seperate state
