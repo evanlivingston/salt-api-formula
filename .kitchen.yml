@@ -9,9 +9,13 @@ provisioner:
     base:
       '*':
         - salt-api
+        - salt-api.pepper
 
 platforms:
   - name: ubuntu-12.04
 
 suites:
-  - name: default
+  - name: default_stable
+    provisioner:
+    salt_version: 2015.5.3
+    salt_install: apt
